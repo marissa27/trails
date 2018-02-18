@@ -5,6 +5,8 @@ export default class Header extends Component {
     return (
       <header>
         <h1>Welcome to ◀ App ⛰ Name ▶</h1>
+        <button>Login</button>
+        <button>Sign Up</button>
       </header>
     );
   }
