@@ -9,7 +9,6 @@ const Main = () => (
       <Route exact path='/' component={App}/>
       <Route exact path='/login' component={LoginContainer}/>
       <Route exact path='/signup' component={LoginContainer}/>
-
     </Switch>
   </main>
 );
