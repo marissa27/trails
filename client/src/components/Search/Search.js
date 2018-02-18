@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class Search extends Component {
 
   currentLocation() {
-    console.log('curretnLocation')
+    console.log('currentLocation')
     if ("geolocation" in navigator) {
       navigator.geolocation.getCurrentPosition((position) => {
         let latitude = position.coords.latitude;
